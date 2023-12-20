@@ -1,0 +1,18 @@
+	ARCHIVOS MODIFICADOS
+-----------------------------------------
+
+app>Http>Controllers
+	RegisterController.php - Controlador del registro de usuarios.
+	SessionsController.php - Controlador del inicio de sesión.
+
+app>Router>web.php - Archivo donde establecemos todas las rutas.
+
+app>resources>views>home.blade.php - Página que verán los usuarios logeados.
+
+app>resources>views>layouts>app.blade.php - Plantilla con el diseño del menú.
+
+app>resources>views>auth
+	login.blade.php - Página de inicio de sesión.
+	register.blade.php - Página de registro de usuarios.
+
+app>models>User.php - Archivo utilizado para encriptar la contraseña.
